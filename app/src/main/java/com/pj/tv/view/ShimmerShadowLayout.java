@@ -103,7 +103,6 @@ public class ShimmerShadowLayout extends FrameLayout implements View.OnFocusChan
 
             mShadowWidth = a.getDimension(R.styleable.ShimmerShadowLayout_mShadowWidth, pt2px(10));
             mBorderWidth = a.getDimension(R.styleable.ShimmerShadowLayout_mBorderWidth, pt2px(2));
-            mRadius = a.getDimension(R.styleable.ShimmerShadowLayout_mRadius, 0);
             mShadowColor = a.getColor(R.styleable.ShimmerShadowLayout_mShadowColor, Color.WHITE);
             mBorderColor = a.getColor(R.styleable.ShimmerShadowLayout_mBorderColor, Color.WHITE);
             mBreatheDuration = a.getInteger(R.styleable.ShimmerShadowLayout_mBreatheDuration, 4000);
@@ -111,10 +110,11 @@ public class ShimmerShadowLayout extends FrameLayout implements View.OnFocusChan
             mIsShadow = a.getBoolean(R.styleable.ShimmerShadowLayout_mIsShadow, true);
             mIsBorder = a.getBoolean(R.styleable.ShimmerShadowLayout_mIsBorder, true);
 
-            mTopLeftRadius = a.getDimension(R.styleable.ShimmerShadowLayout_topLeftRadius, mRadius);
-            mTopRightRadius = a.getDimension(R.styleable.ShimmerShadowLayout_topRightRadius, mRadius);
-            mBottomLeftRadius = a.getDimension(R.styleable.ShimmerShadowLayout_bottomLeftRadius, mRadius);
-            mBottomRightRadius = a.getDimension(R.styleable.ShimmerShadowLayout_bottomRightRadius, mRadius);
+            mRadius = a.getDimension(R.styleable.ShimmerShadowLayout_mRadius, 0);
+            mTopLeftRadius = a.getDimension(R.styleable.ShimmerShadowLayout_mTopLeftRadius, mRadius);
+            mTopRightRadius = a.getDimension(R.styleable.ShimmerShadowLayout_mTopRightRadius, mRadius);
+            mBottomLeftRadius = a.getDimension(R.styleable.ShimmerShadowLayout_mBottomLeftRadius, mRadius);
+            mBottomRightRadius = a.getDimension(R.styleable.ShimmerShadowLayout_mBottomRightRadius, mRadius);
         } finally {
             a.recycle();
         }

@@ -34,18 +34,6 @@
         <!--全部圆角大小-->
         <attr name="mRadius" format="dimension|reference" />
         <!--左上圆角大小-->
-        <attr name="topLeftRadius" format="dimension|reference" />
-        <!--右上圆角大小-->
-        <attr name="topRightRadius" format="dimension|reference" />
-        <!--左下圆角大小-->
-        <attr name="bottomLeftRadius" format="dimension|reference" />
-        <!--右下圆角大小-->
-        <attr name="bottomRightRadius" format="dimension|reference" />
-    </declare-styleable>
-    <declare-styleable name="RoundImageView">
-        <!--全部圆角大小-->
-        <attr name="radius" format="dimension|reference" />
-        <!--左上圆角大小-->
         <attr name="mTopLeftRadius" format="dimension|reference" />
         <!--右上圆角大小-->
         <attr name="mTopRightRadius" format="dimension|reference" />
@@ -53,5 +41,17 @@
         <attr name="mBottomLeftRadius" format="dimension|reference" />
         <!--右下圆角大小-->
         <attr name="mBottomRightRadius" format="dimension|reference" />
+    </declare-styleable>
+    <declare-styleable name="RoundImageView">
+        <!--全部圆角大小-->
+        <attr name="radius" format="dimension|reference" />
+        <!--左上圆角大小-->
+        <attr name="topLeftRadius" format="dimension|reference" />
+        <!--右上圆角大小-->
+        <attr name="topRightRadius" format="dimension|reference" />
+        <!--左下圆角大小-->
+        <attr name="bottomLeftRadius" format="dimension|reference" />
+        <!--右下圆角大小-->
+        <attr name="bottomRightRadius" format="dimension|reference" />
     </declare-styleable>
 </resources>

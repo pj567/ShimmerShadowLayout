@@ -47,10 +47,10 @@ public class RoundImageView extends ImageView {
         if (attrs != null) {
             TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.RoundImageView);
             float radius = a.getDimension(R.styleable.RoundImageView_radius, 0);
-            mTopLeftRadius = a.getDimension(R.styleable.RoundImageView_mTopLeftRadius, radius);
-            mTopRightRadius = a.getDimension(R.styleable.RoundImageView_mTopRightRadius, radius);
-            mBottomLeftRadius = a.getDimension(R.styleable.RoundImageView_mBottomLeftRadius, radius);
-            mBottomRightRadius = a.getDimension(R.styleable.RoundImageView_mBottomRightRadius, radius);
+            mTopLeftRadius = a.getDimension(R.styleable.RoundImageView_topLeftRadius, radius);
+            mTopRightRadius = a.getDimension(R.styleable.RoundImageView_topRightRadius, radius);
+            mBottomLeftRadius = a.getDimension(R.styleable.RoundImageView_bottomLeftRadius, radius);
+            mBottomRightRadius = a.getDimension(R.styleable.RoundImageView_bottomRightRadius, radius);
             a.recycle();
         }
         mIsDrawRound = mTopLeftRadius != 0 || mTopRightRadius != 0 || mBottomLeftRadius != 0 || mBottomRightRadius != 0;

@@ -43,7 +43,7 @@
         android:focusableInTouchMode="true"
         app:mBorderColor="#ff5813"
         app:mRadius="89pt"
-        app:topLeftRadius="0pt"
+        app:mTopLeftRadius="0pt"
         app:mShadowColor="#ff5813">
 
         <com.pj.tv.view.RoundImageView
@@ -52,7 +52,7 @@
             android:layout_margin="11pt"
             android:scaleType="fitXY"
             app:radius="88pt"
-            app:mTopLeftRadius="0pt"
+            app:topLeftRadius="0pt"
             android:src="@mipmap/test" />
     </com.pj.tv.view.ShimmerShadowLayout>
 
@@ -86,8 +86,9 @@
         app:mBorderColor="#ff5813"
         app:mRadius="89pt"
         app:mBorderWidth="6pt"
-        app:topLeftRadius="0pt"
-        app:bottomRightRadius="0pt"
+        app:mShadowWidth="10pt"
+        app:mTopLeftRadius="0pt"
+        app:mBottomRightRadius="0pt"
         app:mShadowColor="#ff5813">
         <com.pj.tv.view.RoundImageView
             android:layout_width="275pt"
@@ -95,8 +96,8 @@
             android:layout_margin="13pt"
             android:scaleType="fitXY"
             app:radius="86pt"
-            app:mTopLeftRadius="0pt"
-            app:mBottomRightRadius="0pt"
+            app:topLeftRadius="0pt"
+            app:bottomRightRadius="0pt"
             android:src="@mipmap/test" />
     </com.pj.tv.view.ShimmerShadowLayout>
 
@@ -109,9 +110,9 @@
         android:focusableInTouchMode="true"
         app:mRadius="89pt"
         app:mBorderWidth="6pt"
-        app:topLeftRadius="0pt"
-        app:bottomRightRadius="0pt"
-        app:bottomLeftRadius="0pt"
+        app:mTopLeftRadius="0pt"
+        app:mBottomRightRadius="0pt"
+        app:mBottomLeftRadius="0pt"
         app:mBorderColor="#ff5813"
         app:mShadowColor="#ff5813">
 
@@ -121,9 +122,9 @@
             android:layout_margin="13pt"
             android:scaleType="fitXY"
             app:radius="86pt"
-            app:mTopLeftRadius="0pt"
-            app:mBottomRightRadius="0pt"
-            app:mBottomLeftRadius="0pt"
+            app:topLeftRadius="0pt"
+            app:bottomRightRadius="0pt"
+            app:bottomLeftRadius="0pt"
             android:src="@mipmap/test" />
     </com.pj.tv.view.ShimmerShadowLayout>
 
