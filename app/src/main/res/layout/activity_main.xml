@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8e4cd">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="143pt"
+        android:background="#299c1c"
+        android:gravity="center"
+        android:text="顶部"
+        android:textColor="@android:color/white"
+        android:textSize="24pt" />
+
+    <com.pj.tv.view.ShimmerShadowLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="49pt"
+        android:layout_marginTop="156pt"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        app:mBorderColor="#ff5813"
+        app:mShadowColor="#ff5813">
+
+        <ImageView
+            android:layout_width="188pt"
+            android:layout_height="178pt"
+            android:layout_margin="11pt"
+            android:scaleType="fitXY"
+            android:src="@mipmap/test" />
+    </com.pj.tv.view.ShimmerShadowLayout>
+
+    <com.pj.tv.view.ShimmerShadowLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="49pt"
+        android:layout_marginTop="345pt"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        app:mBorderColor="#ff5813"
+        app:mShadowColor="#ff5813">
+
+        <ImageView
+            android:layout_width="188pt"
+            android:layout_height="178pt"
+            android:layout_margin="11pt"
+            android:scaleType="fitXY"
+            android:src="@mipmap/test" />
+    </com.pj.tv.view.ShimmerShadowLayout>
+
+    <com.pj.tv.view.ShimmerShadowLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="259pt"
+        android:layout_marginTop="156pt"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        app:mBorderColor="#ff5813"
+        app:mIsShimmerAnim="false"
+        app:mScale="1.0"
+        app:mShadowColor="#ff5813">
+
+        <ImageView
+            android:layout_width="656pt"
+            android:layout_height="367pt"
+            android:layout_margin="11pt"
+            android:scaleType="fitXY"
+            android:src="@mipmap/test" />
+    </com.pj.tv.view.ShimmerShadowLayout>
+
+    <com.pj.tv.view.ShimmerShadowLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="934pt"
+        android:layout_marginTop="156pt"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        app:mBorderColor="#ff5813"
+        app:mShadowColor="#ff5813">
+
+        <ImageView
+            android:layout_width="275pt"
+            android:layout_height="178pt"
+            android:layout_margin="11pt"
+            android:scaleType="fitXY"
+            android:src="@mipmap/test" />
+    </com.pj.tv.view.ShimmerShadowLayout>
+
+    <com.pj.tv.view.ShimmerShadowLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="934pt"
+        android:layout_marginTop="345pt"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        app:mBorderColor="#ff5813"
+        app:mShadowColor="#ff5813">
+
+        <ImageView
+            android:layout_width="275pt"
+            android:layout_height="178pt"
+            android:layout_margin="11pt"
+            android:scaleType="fitXY"
+            android:src="@mipmap/test" />
+    </com.pj.tv.view.ShimmerShadowLayout>
+
+    <com.pj.tv.view.ShimmerShadowLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="49pt"
+        android:layout_marginTop="544pt"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        app:mBorderColor="#ff5813"
+        android:onClick="jump"
+        app:mShadowColor="#ff5813">
+
+        <TextView
+            android:layout_width="275pt"
+            android:layout_height="77pt"
+            android:layout_margin="11pt"
+            android:background="#1b8151"
+            android:gravity="center"
+            android:scaleType="fitXY"
+            android:text="栏目可点击"
+            android:textColor="@android:color/white"
+            android:textSize="24pt" />
+    </com.pj.tv.view.ShimmerShadowLayout>
+    <com.pj.tv.view.ShimmerShadowLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="345pt"
+        android:layout_marginTop="544pt"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        app:mBorderColor="#ff5813"
+        app:mShadowColor="#ff5813">
+
+        <TextView
+            android:layout_width="275pt"
+            android:layout_height="77pt"
+            android:layout_margin="11pt"
+            android:background="#1b8151"
+            android:gravity="center"
+            android:scaleType="fitXY"
+            android:text="栏目"
+            android:textColor="@android:color/white"
+            android:textSize="24pt" />
+    </com.pj.tv.view.ShimmerShadowLayout>
+    <com.pj.tv.view.ShimmerShadowLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="640pt"
+        android:layout_marginTop="544pt"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        app:mBorderColor="#ff5813"
+        app:mShadowColor="#ff5813">
+
+        <TextView
+            android:layout_width="275pt"
+            android:layout_height="77pt"
+            android:layout_margin="11pt"
+            android:background="#1b8151"
+            android:gravity="center"
+            android:scaleType="fitXY"
+            android:text="栏目"
+            android:textColor="@android:color/white"
+            android:textSize="24pt" />
+    </com.pj.tv.view.ShimmerShadowLayout>
+    <com.pj.tv.view.ShimmerShadowLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="934pt"
+        android:layout_marginTop="544pt"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        app:mBorderColor="#ff5813"
+        app:mShadowColor="#ff5813">
+
+        <TextView
+            android:layout_width="275pt"
+            android:layout_height="77pt"
+            android:layout_margin="11pt"
+            android:background="#1b8151"
+            android:gravity="center"
+            android:scaleType="fitXY"
+            android:text="栏目"
+            android:textColor="@android:color/white"
+            android:textSize="24pt" />
+    </com.pj.tv.view.ShimmerShadowLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="65pt"
+        android:layout_gravity="bottom"
+        android:background="#299c1c"
+        android:gravity="center"
+        android:text="底部"
+        android:textColor="@android:color/white"
+        android:textSize="24pt" />
+</FrameLayout>

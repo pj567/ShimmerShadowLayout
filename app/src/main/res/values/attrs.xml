@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <declare-styleable name="ShimmerShadowLayout">
+        <attr name="mShimmerColor" format="color|reference" />
+        <!--缩放动效时间-->
+        <attr name="mAnimDuration" format="integer|reference" />
+        <!--放大系数-->
+        <attr name="mScale" format="float|reference" />
+        <!--是否绘制闪光-->
+        <attr name="mIsShimmerAnim" format="boolean|reference" />
+        <!--是否调整层级只针对在mIsParent为false时-->
+        <attr name="mBringToFront" format="boolean|reference" />
+        <!--是否有弹簧效果-->
+        <attr name="mIsBounceInterpolator" format="boolean|reference" />
+        <!--是否是item根控件,true 不会自动开始动画-->
+        <attr name="mIsParent" format="boolean|reference" />
+
+        <!--外发光距离 必须大于0 {@link BlurMaskFilter}-->
+        <attr name="mShadowWidth" format="dimension|reference" />
+        <!--边框线宽度-->
+        <attr name="mBorderWidth" format="dimension|reference" />
+        <!--外发光颜色-->
+        <attr name="mShadowColor" format="color|reference" />
+        <!--边框颜色-->
+        <attr name="mBorderColor" format="color|reference" />
+        <!--呼吸灯周期-->
+        <attr name="mBreatheDuration" format="integer|reference" />
+        <!--是否开启呼吸灯效果 默认开启-->
+        <attr name="mIsBreathe" format="boolean|reference" />
+        <!--是否有外发光 默认有-->
+        <attr name="mIsShadow" format="boolean|reference" />
+        <!--是否使用边框线 默认有-->
+        <attr name="mIsBorder" format="boolean|reference" />
+        <!--全部圆角大小-->
+        <attr name="mRadius" format="dimension|reference" />
+        <!--左上圆角大小-->
+        <attr name="topLeftRadius" format="dimension|reference" />
+        <!--右上圆角大小-->
+        <attr name="topRightRadius" format="dimension|reference" />
+        <!--左下圆角大小-->
+        <attr name="bottomLeftRadius" format="dimension|reference" />
+        <!--右下圆角大小-->
+        <attr name="bottomRightRadius" format="dimension|reference" />
+    </declare-styleable>
+    <declare-styleable name="RoundImageView">
+        <!--全部圆角大小-->
+        <attr name="radius" format="dimension|reference" />
+        <!--左上圆角大小-->
+        <attr name="mTopLeftRadius" format="dimension|reference" />
+        <!--右上圆角大小-->
+        <attr name="mTopRightRadius" format="dimension|reference" />
+        <!--左下圆角大小-->
+        <attr name="mBottomLeftRadius" format="dimension|reference" />
+        <!--右下圆角大小-->
+        <attr name="mBottomRightRadius" format="dimension|reference" />
+    </declare-styleable>
+</resources>
