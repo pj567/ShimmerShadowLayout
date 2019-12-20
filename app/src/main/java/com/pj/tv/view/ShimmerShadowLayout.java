@@ -42,7 +42,7 @@ public class ShimmerShadowLayout extends FrameLayout implements View.OnFocusChan
     private int mShimmerColor = 0x66FFFFFF;
     private boolean mIsShimmerAnim = true;
     private boolean mIsBounceInterpolator = true;
-    private boolean mBringToFront = false;
+    private boolean mBringToFront = true;
     private boolean mIsParent = false;
     private float mScale = 1.05f;
     private LinearGradient mShimmerLinearGradient;
